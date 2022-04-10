@@ -7,7 +7,7 @@
     "email": "kevcon80@gmail.com",
     "phone": "(716) 472-8005",
     "url": "https://github.com/KevinConti",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "summary": "Kevin grew up in Buffalo, NY before earning a degree in Computer Science from the University of North Carolina at Wilmington. He is a life-learner who loves to build his knowledge of new languages, frameworks, and software design patterns. \n He is passionate about the benefits of functional programming, and will talk your ear off about the benefits of languages such as Elm and Elixir/Phoenix. \n While Kevin has a passion for development, he also has a holistic education in sales, marketing, product, and customer support from his time working as a founder at his own startup. \n Outside of work, he enjoys living in South Florida, where he can bask in the warmth and sun - a BIG upgrade over the Buffalo weather he grew up with!.",
     "location": {
       "address": "4350 Veleiros Ave",
       "postalCode": "33064",
@@ -19,81 +19,85 @@
       {
         "network": "Twitter",
         "username": "Kev_Conti",
-        "url": ""
+        "url": "https://twitter.com/Kev_Conti"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
+        "network": "github",
+        "username": "KevinConti",
+        "url": "https://github.com/KevinConti"
+      },
+      {
+        "network": "linkedin",
+        "username": "Kevin Conti",
+        "url": "https://www.linkedin.com/in/kevin-conti-b717589a/"
       }
     ]
   },
   "work": [
     {
-      "name": "Credit Suisse",
-      "location": "Morrisville, NC",
+      "company": "Kevin Conti Enterprises LLC",
+      "position": "Technical Founder",
+      "url": "https://www.kevinconti.com/",
+      "startDate": "2019-01-01",
+      "summary": "As both a part-time, then later full-time endeavor, Kevin founded Kevin Conti Enterprises LLC as a holding company for his collection of projects. Throughout his time working on software and software-related projects, Kevin was responsible for:",
+      "highlights": [
+        "Coding four codebases from scratch and maintaining them in production.",
+        "Personally selling over $150,000 worth of product over roughly two years, with no BDRs or outside assistance.",
+        "Managing a team of multiple long-term contractors, learning how to be a good employer, manager, and leader."
+      ],
+      "keywords": [
+        "Elixir / Phoenix", "Svelte / SvelteKit", "JavaScript / TypeScript", "Sales", "Marketing", "Leadership", "AI", "GPT-3"
+      ]
+    },
+    {
+      "company": "SoftPro",
+      "position": "Software Developer",
+      "url": "https://www.softprocorp.com/",
+      "startDate": "2020-01-01",
+      "endDate": "2021-03-01",
+      "summary": "SoftPro is the most trusted provider of real estate closing, title and escrow software, with over 14,000 customer sites and 60,000 users nationwide. At SoftPro, Kevin was responsible for:",
+      "highlights": [
+        "Participating in discussions to architect SoftPro's newest cloud-based offering, internally referred to as Project Intrepid.",
+        "Write code to develop features, fix bugs, and create proof-of-concept prototypes across multiple projects, primarily using C# and .NET framework.",
+        "Integrating Okta's authentication platform into multiple applications to modernize SoftPro's security and user authentication experience."
+      ],
+      "keywords": [
+        "Okta", "Terraform", "Microsoft Azure", "CI/CD", "C#", ".NET Core 3 / .NET 5"
+      ]
+    },
+    {
+      "company": "Credit Suisse",
       "description": "Banking",
       "position": "Technical Analyst",
       "url": "https://www.credit-suisse.com/ch/en.html",
-      "startDate": "2019-01-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "startDate": "2018-06-01",
+      "endDate": "2020-01-01",
+      "summary": "Credit Suisse is a Fortune Global 500 company that specializes in asset management and investment banking for clients. As as Technical Analyst for Credit Suisse, Kevin was responsible for:",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "Leading a team of nine technical analysts to define, design, and deploy a new solution for the Risk Metrics devision.",
+        "Acting as the Lead Developer for a six-developer project for the Amelia AI team, migrating their AI-based support bot to a chat-overlay client that greatly increased the accessibility of the Amelia help bot",
+        "Saved Credit Suisse an estimated $2M/year in support and maintenance expenses by acting as the primary developer for a C# middleware service."
+      ],
+      "keywords": [
+        "C#", "Groovy", "JavaScript", "PM"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
+      "institution": "University of North Carolina - Wilmington",
+      "url": "https://uncw.edu/",
+      "area": "Computer Science",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "startDate": "2014-06-01",
+      "endDate": "2018-12-01",
+      "score": "3.4"
     }
   ],
   "skills": [
     {
       "name": "Web Development",
-      "level": "Master",
+      "level": "Advanced",
       "keywords": [
         "HTML",
         "CSS",
@@ -101,58 +105,96 @@
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Backend Development",
+      "level": "Advanced",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "C#",
+        ".NET Core 3",
+        "LINQ"
+      ]
+    },
+    {
+      "name": "Marketing",
+      "level": "Experienced",
+      "keywords": [
+        "Content Marketing",
+        "SEO",
+        "Engineering-as-Marketing"
       ]
     }
+
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "language": "C#",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Javascript",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Svelte",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "React",
+      "fluency": "Experienced"
+    },
+    {
+      "language": "Elixir / Phoenix",
+      "fluency": "Experienced"
+    },
+    {
+      "language": "Terraform",
+      "fluency": "Experienced"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
+      "name": "Hockey"
+    },
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "name": "Tennis"
+    },
+    {
+      "name": "Entrepreneurship",
+      "keywords": [
+        "Sales",
+        "Marketing"
+      ]
     }
   ],
   "projects": [
     {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
+      "name": "CoderNotes",
+      "description": "A search-based workflow for developer notes",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+        "ProductHunt #2 Product of the Day",
+        "Developed using modern web development technologies such as front-end JavaScript frameworks, back-end APIs, and integrations with 3rd-party APIs"
       ],
       "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
+        "Lead Developer",
+        "Designer",
+        "Marketer"
       ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
-      "roles": [
-        "Team lead",
-        "Designer"
+      "url": "https://codernotes.io/",
+      "type": "application"
+    },
+    {
+      "name": "Software Ideas",
+      "description": "A market research service for software companies.",
+      "highlights": [
+        "Acquired over 1,000 paying customers.",
+        "Responsible for three production codebases, from a simple marketing website in Laravel/PHP to a complex members-only web application.",
+        "Gained experience with Engineering-as-Marketing, a marketing strategy that involves creating free software to attract users to a website."
       ],
-      "entity": "Smoogle",
+      "keywords": [
+        "Lead Developer",
+        "Designer",
+        "Marketer"
+      ],
+      "url": "https://softwareideas.io",
       "type": "application"
     }
   ],

@@ -4,6 +4,6 @@
     "resume-cli": "^3.0.6"
   },
   "scripts": {
-    "start": "resume serve -t ./node_modules/jsonresume-theme-stackoverflow"
+    "start": "resume serve -t ./jsonresume-theme-stackoverflow-customized"
   }
 }
