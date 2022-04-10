@@ -1,9 +1,10 @@
 {
   "dependencies": {
-    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "jsonresume-theme-stackoverflow": "file:jsonresume-theme-stackoverflow-customized",
     "resume-cli": "^3.0.6"
   },
   "scripts": {
-    "start": "resume serve -t ./jsonresume-theme-stackoverflow-customized"
+    "start": "resume serve -t ./jsonresume-theme-stackoverflow-customized",
+    "export:pdf": "resume export kevinconti.pdf -t jsonresume-theme-stackoverflow"
   }
 }
