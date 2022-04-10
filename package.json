@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "resume-cli": "^3.0.6"
+  },
+  "scripts": {
+    "start": "resume serve -t ./node_modules/jsonresume-theme-stackoverflow"
+  }
+}
