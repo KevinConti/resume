@@ -75,7 +75,7 @@
       "summary": "Credit Suisse is a Fortune Global 500 company that specializes in asset management and investment banking for clients. As as Technical Analyst for Credit Suisse, Kevin was responsible for:",
       "highlights": [
         "Leading a team of nine technical analysts to define, design, and deploy a new solution for the Risk Metrics devision.",
-        "Acting as the Lead Developer for a six-developer project for the Amelia AI team, migrating their AI-based support bot to a chat-overlay client that greatly increased the accessibility of the Amelia help bot",
+        "Acting as the Lead Developer for a six-developer project for the Amelia AI team, migrating their AI-based support bot to a chat-overlay client that greatly increased the accessibility of the Amelia help bot.",
         "Saved Credit Suisse an estimated $2M/year in support and maintenance expenses by acting as the primary developer for a C# middleware service."
       ],
       "keywords": [
@@ -110,7 +110,10 @@
       "keywords": [
         "C#",
         ".NET Core 3",
-        "LINQ"
+        "LINQ",
+        "Unit Testing",
+        "Node.js",
+        "SQL / NoSQL"
       ]
     },
     {
