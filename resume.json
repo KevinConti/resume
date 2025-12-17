@@ -2,16 +2,16 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Kevin Conti",
-    "label": "Software Developer",
+    "label": "Senior Software Developer / Tech Lead | AI/ML Engineering",
     "image": "",
     "email": "kevcon80@gmail.com",
     "phone": "(716) 472-8005",
     "url": "https://github.com/KevinConti",
-    "summary": "Kevin grew up in Buffalo, NY before earning a degree in Computer Science from the University of North Carolina at Wilmington. He is a life-learner who loves to build his knowledge of new languages, frameworks, and software design patterns. \n While Kevin has a passion for development, he also has a holistic education in sales, marketing, product, and customer support from his time working as a founder at his own startup. \n Outside of work, he enjoys living in South Florida, where he can bask in the warmth and sun - a BIG upgrade over the Buffalo weather he grew up with!.",
+    "summary": "Senior Software Developer and Tech Lead specializing in AI/ML engineering with a proven track record building production AI systems using foundation models (Claude/OpenAI/Gemini), LangChain, LangFuse, and modern evaluation frameworks. Combines deep technical expertise in full-stack development (.NET, Python, Azure) with strong leadership experience scaling teams and implementing observability solutions. Previously founded and scaled a profitable SaaS business, bringing entrepreneurial perspective to technical problem-solving.",
     "location": {
-      "address": "4350 Veleiros Ave",
-      "postalCode": "33064",
-      "city": "Deerfield Beach",
+      "address": "2621 Rail Spur",
+      "postalCode": "35566",
+      "city": "Odessa",
       "countryCode": "US",
       "region": "Florida"
     },
@@ -35,16 +35,28 @@
   },
   "work": [
     {
+      "company": "SoftPro",
+      "position": "Senior Software Developer / Tech Lead",
+      "url": "https://www.softprocorp.com/",
+      "startDate": "2022-07-25",
+      "summary": "Leading development teams through cloud modernization and AI initiatives at real estate software leader.",
+      "highlights": [
+        "Built AI-powered community search tool POC for parent company FNF using LangChain, LangFuse, and custom evals.",
+        "Architected OpenTelemetry implementation across 360 Platform, improving observability and error detection capabilities.",
+        "Scaled 360 Platform Team from 1 to 2 teams, reducing developer onboarding time 50% (6-12 months to 3-6 months).",
+        "Established developer preview release process, reducing production error rates through early feedback loops."
+      ],
+      "keywords": [
+        ".NET Framework 4.8", "Azure", "OpenTelemetry", "Azure Key Vault", "Azure Application Insights", "OAuth 2.0", "C#", "LangChain", "LangFuse", "Technical Leadership"
+      ]
+    },
+    {
       "company": "Kevin Conti Enterprises LLC",
       "position": "Technical Founder",
       "url": "https://www.kevinconti.com/",
       "startDate": "2019-01-01",
-      "summary": "As both a part-time, then later full-time endeavor, Kevin founded Kevin Conti Enterprises LLC as a holding company for his collection of projects. Throughout his time working on software and software-related projects, Kevin was responsible for:",
-      "highlights": [
-        "Coding four codebases from scratch and maintaining them in production.",
-        "Personally selling over $150,000 worth of product over roughly two years, with no BDRs or outside assistance.",
-        "Managing a team of multiple long-term contractors, learning how to be a good employer, manager, and leader."
-      ],
+      "endDate": "2022-07-01",
+      "summary": "Founded and operated SaaS holding company, building and scaling multiple profitable software products.",
       "keywords": [
         "Elixir / Phoenix", "Svelte / SvelteKit", "JavaScript / TypeScript", "Sales", "Marketing", "Leadership", "AI", "GPT-3"
       ]
@@ -55,11 +67,9 @@
       "url": "https://www.softprocorp.com/",
       "startDate": "2020-01-01",
       "endDate": "2021-03-01",
-      "summary": "SoftPro is the most trusted provider of real estate closing, title and escrow software, with over 14,000 customer sites and 60,000 users nationwide. At SoftPro, Kevin was responsible for:",
+      "summary": "Contributed to authentication modernization for enterprise real estate software.",
       "highlights": [
-        "Participating in discussions to architect SoftPro's newest cloud-based offering, internally referred to as Project Intrepid.",
-        "Write code to develop features, fix bugs, and create proof-of-concept prototypes across multiple projects, primarily using C# and .NET framework.",
-        "Integrating Okta's authentication platform into multiple applications to modernize SoftPro's security and user authentication experience."
+        "Integrated Okta authentication platform across applications, modernizing security and user experience."
       ],
       "keywords": [
         "Okta", "Terraform", "Microsoft Azure", "CI/CD", "C#", ".NET Core 3 / .NET 5"
@@ -72,11 +82,10 @@
       "url": "https://www.credit-suisse.com/ch/en.html",
       "startDate": "2018-06-01",
       "endDate": "2020-01-01",
-      "summary": "Credit Suisse is a Fortune Global 500 company that specializes in asset management and investment banking for clients. As as Technical Analyst for Credit Suisse, Kevin was responsible for:",
+      "summary": "Delivered technical solutions and led teams at Fortune Global 500 investment banking firm.",
       "highlights": [
-        "Leading a team of nine technical analysts to define, design, and deploy a new solution for the Risk Metrics devision.",
-        "Acting as the Lead Developer for a six-developer project for the Amelia AI team, migrating their AI-based support bot to a chat-overlay client that greatly increased the accessibility of the Amelia help bot.",
-        "Saved Credit Suisse an estimated $2M/year in support and maintenance expenses by acting as the primary developer for a C# middleware service."
+        "Led Amelia AI migration project as Lead Developer, implementing chat-overlay client that increased bot accessibility.",
+        "Built C# middleware service saving an estimated $2M annually in support and maintenance costs."
       ],
       "keywords": [
         "C#", "Groovy", "JavaScript", "PM"
@@ -84,6 +93,14 @@
     }
   ],
   "education": [
+    {
+      "institution": "Maven",
+      "url": "https://maven.com/",
+      "area": "AI Evals for Engineers and Project Managers",
+      "studyType": "Certification",
+      "startDate": "2025-06-01",
+      "endDate": "2025-07-01"
+    },
     {
       "institution": "University of North Carolina - Wilmington",
       "url": "https://uncw.edu/",
@@ -96,108 +113,105 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "AI/ML Engineering",
       "level": "Advanced",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "LangChain",
+        "LangFuse",
+        "Arize Phoenix",
+        "RAG (Retrieval Augmented Generation)",
+        "Prompt Engineering",
+        "Evals & Evaluation Frameworks",
+        "OpenTelemetry",
+        "Rapid Prototyping",
+        "Foundation Models (Claude/OpenAI/Gemini)"
       ]
     },
     {
-      "name": "Backend Development",
+      "name": "Backend & Cloud Development",
       "level": "Advanced",
       "keywords": [
         "C#",
-        ".NET Core 3",
-        "LINQ",
-        "Unit Testing",
-        "Node.js",
-        "SQL / NoSQL"
+        ".NET Framework 4.8",
+        ".NET Core",
+        "Python",
+        "Elixir",
+        "Azure",
+        "OAuth 2.0",
+        "Node.js"
       ]
     },
     {
-      "name": "Marketing",
+      "name": "Frontend Development",
+      "level": "Advanced",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "Svelte / SvelteKit",
+        "React",
+        "HTML",
+        "CSS",
+        "Storybook"
+      ]
+    },
+    {
+      "name": "Leadership & Process",
       "level": "Experienced",
       "keywords": [
-        "Content Marketing",
-        "SEO",
-        "Engineering-as-Marketing"
+        "Technical Leadership",
+        "Team Management",
+        "Cross-functional Collaboration",
+        "Developer Experience",
+        "Eval-Driven Development"
       ]
     }
 
   ],
-  "languages": [
-    {
-      "language": "C#",
-      "fluency": "Advanced"
-    },
-    {
-      "language": "Javascript",
-      "fluency": "Advanced"
-    },
-    {
-      "language": "Svelte",
-      "fluency": "Advanced"
-    },
-    {
-      "language": "React",
-      "fluency": "Experienced"
-    },
-    {
-      "language": "Elixir / Phoenix",
-      "fluency": "Experienced"
-    },
-    {
-      "language": "Terraform",
-      "fluency": "Experienced"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Hockey"
-    },
-    {
-      "name": "Tennis"
-    },
-    {
-      "name": "Entrepreneurship",
-      "keywords": [
-        "Sales",
-        "Marketing"
-      ]
-    }
-  ],
   "projects": [
     {
-      "name": "CoderNotes",
-      "description": "A search-based workflow for developer notes",
+      "name": "Personal Work Operating System",
+      "description": "Context-aware AI assistant built with Claude Code Agent Harness for task prioritization and workflow automation.",
       "highlights": [
-        "ProductHunt #2 Product of the Day",
-        "Developed using modern web development technologies such as front-end JavaScript frameworks, back-end APIs, and integrations with 3rd-party APIs"
+        "Engineered progressive disclosure prompts improving agent context management and response accuracy.",
+        "Streamlined personal productivity workflows through custom agent instructions and automation."
       ],
       "keywords": [
-        "Lead Developer",
-        "Designer",
-        "Marketer"
+        "Claude Code Agent Harness",
+        "Prompt Engineering",
+        "AI Agents",
+        "Automation"
       ],
-      "url": "https://codernotes.io/",
       "type": "application"
     },
     {
-      "name": "Software Ideas",
-      "description": "A market research service for software companies.",
+      "name": "Lead Generation Agent",
+      "description": "Automated lead enrichment and content mapping pipeline for CTO consulting services.",
       "highlights": [
-        "Acquired over 1,000 paying customers.",
-        "Responsible for three production codebases, from a simple marketing website in Laravel/PHP to a complex members-only web application.",
-        "Gained experience with Engineering-as-Marketing, a marketing strategy that involves creating free software to attract users to a website."
+        "Implemented Arize Phoenix for real-time observability and evaluation framework monitoring.",
+        "Designed scalable automation pipeline for prospect identification and qualification."
       ],
       "keywords": [
-        "Lead Developer",
-        "Designer",
-        "Marketer"
+        "Arize Phoenix",
+        "Lead Generation",
+        "Automation",
+        "AI Agents"
       ],
-      "url": "https://softwareideas.io",
+      "type": "application"
+    },
+    {
+      "name": "Court Transcript Diarization Tool",
+      "description": "Audio-to-text transcription with automated speaker identification for legal proceedings.",
+      "highlights": [
+        "Leveraged open-source Hugging Face models for speech recognition and speaker separation.",
+        "Delivered production-ready Python solution deployed via Google Colab for rapid iteration."
+      ],
+      "keywords": [
+        "Python",
+        "Hugging Face",
+        "Google Colab",
+        "Speech-to-Text",
+        "NLP"
+      ],
       "type": "application"
     }
   ],

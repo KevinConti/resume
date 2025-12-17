@@ -1,10 +1,14 @@
 {
   "dependencies": {
+    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-even": "^0.26.1",
+    "jsonresume-theme-kendall": "^0.2.0",
+    "jsonresume-theme-paper": "^0.5.0",
     "jsonresume-theme-stackoverflow": "file:jsonresume-theme-stackoverflow-customized",
     "resume-cli": "^3.0.6"
   },
   "scripts": {
-    "start": "resume serve -t ./jsonresume-theme-stackoverflow-customized",
-    "export:pdf": "resume export kevinconti.pdf -t jsonresume-theme-stackoverflow"
+    "start": "resumed serve resume.json --theme jsonresume-theme-paper",
+    "export:pdf": "resumed export resume.json --theme jsonresume-theme-paper --format pdf --output kevinconti.pdf"
   }
 }
